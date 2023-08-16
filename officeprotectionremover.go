@@ -51,7 +51,7 @@ var EOfficeFile eOfficeTool
 var WOfficeFile wOfficeTool
 
 func main() {
-
+	//test2
 	if len(os.Args) < 2 {
 		log.Fatal("Invalid parameters!\r\nThis program is support 1 or more than arguments.\r\n- Microsoft Excel or Word file path.\r\n\r\n- Supported file extensions: .xlsx, .docx")
 	} else {
